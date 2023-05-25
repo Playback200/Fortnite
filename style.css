@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&display=swap");
+
+body {
+  overflow-x: hidden;
+}
+header {
+  background: #7510a471;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding: 85px 0;
+}
+
+.main-menu > a {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.bg-img {
+  background-image: url("background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  width: 50%;
+  padding: 103px 0;
+}
+.hero-text h1 {
+  font-weight: 900;
+  font-size: 39px;
+  line-height: 48px;
+  color: #ffffff;
+}
+
+.hero-text h2 {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #fffbfb;
+  margin-top: 35px;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: nowrap;
+  background: rgba(0, 10, 255, 0.25);
+  backdrop-filter: blur(27px);
+  padding-left: 200px;
+  border-radius: 21px;
+}
+.hero-img {
+  width: 50%;
+}
+
+.about-text-wrapper h2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 39px;
+  line-height: 48px;
+
+  color: #ffffff;
+}
+.about-text-wrapper h3 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #fffbfb;
+}
+.section-about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 70px;
+  padding-bottom: 130px;
+  background: linear-gradient(180deg, rgba(231, 86, 255, 3) 0%, #380041 100%);
+}
+.about-text-wrapper {
+  width: 40%;
+}
+.about-buttoms {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 34px;
+  line-height: 41px;
+  color: #000000;
+  background: #ffffff;
+  text-decoration: none;
+  padding: 20px 100px;
+  display: inline-block;
+  margin-top: 120px;
+ 
+
+
+}
+.windows{
+  color: #fffbfb;
+  background: #2400FF; 
+  margin-left: 88px;
+}
